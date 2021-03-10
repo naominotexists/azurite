@@ -10,7 +10,7 @@ import {
 	Azurite,
 	AzuriteAdapter,
 	JSONAdapter
-} from "https://deno.land/x/azurite@0.0.1/mod.ts";
+} from "https://deno.land/x/azuritedb@0.0.1/mod.ts";
 
 const db = new Azurite({
   file: "test", /* Azurite will automatically add the file extension */
